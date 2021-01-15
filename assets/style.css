@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+a {
+    text-decoration: none;
+    columns: #111111;
+}
+body {
+    height: 1000px;
+}
+.container {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(235, 232, 232);
+    margin: 0px auto;
+   
+    
+}
+.boxe {
+    display: flex;
+    justify-content: center;
+
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto; 
+    max-width:0 auto;
+    border: 1px solid black; 
+}
+.titre span {
+    color: rgba(255, 166, 0, 0.884);
+}
+.titre h2 {
+    font-weight: 500;
+    text-align: left;
+}
+.compte {
+    display: flex;
+    justify-content: space-between;
+    padding: 22px;
+    border:1px #111 solid;
+    font-size: 12px;
+    width:400px;
+    
+}
+.compte i {
+    font-size: 25px;
+}
+.bonjour {
+    display: block;
+    align-content: flex-end;
+   
+}
+.bonjour h2 {
+    font-size: 20px;
+    font-weight: 100;
+    text-align: right;
+    margin-bottom: 10px;
+}
+.bonjour li {
+    border-left: #111 1.5px solid;
+    border-right: #111 1.5px solid;
+    border-collapse: initial;
+    padding: 10px 20px;
+    
+}
+main {
+    background-color: #111;
+    margin: 0 auto;
+    position: static;
+    
+    
+}
+.gants {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px; 
+    background-color: rgb(235, 232, 232) ;
+    margin:0 177px;    
+}
+
+
+.gants .photo {
+    position:inherit;
+    
+}
+.gants a {
+    color: white;
+}
+.photo h2 {
+    position: relative;
+    bottom: 10mm;
+    left: 0mm;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.photo p  {
+    position: relative;
+    top:-100mm;
+    right:-90mm;
+    justify-content: space-between;
+    background-color: #111;
+    color: rgba(255, 166, 0, 0.884) ;
+ 
+    border-radius: 3px;
+    width:40px;
+}
+.photo img {
+    border: 1px solid rgb(128, 128, 128);
+    box-shadow: 0 0 10px rgb(128, 128, 128);
+}
+.prix {
+    display: flex;   
+    justify-content: space-between;
+    max:50px;
+    padding-bottom: 10px;
+   
+}
+.prix h4 {
+    background-color: #111;
+    padding: 2px 20px;
+    font-size: 10;
+}
+.prix .promo {
+    font-size: 25px;
+    font-weight: bold;
+    color:rgba(255, 166, 0, 0.884);
+    
+}
+footer {
+    color:white;
+    
+    font-size: 15px;
+    text-align: center;
+    padding:0 20px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+footer .logo {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(53, 52, 52);
+    margin:0 300px;
+}
+
+ .trait1 {
+     background-color: rgb(52,52,52);
+     height: 30px;
+ }   
+
+.trait2 { 
+    background-color:transparent;
+    height: 30px;
+}  
+.internet {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin-left: 20px;
+    
+    
+}
+.copiright {
+    text-align: center;
+}
+.contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 325px;
+    left:500px;
+   
+    
+}
+.contact a {
+    color: black;
+    font-size: 15px;
+    
+}
+.contact li {
+    margin-left: 10px;
+}
+
